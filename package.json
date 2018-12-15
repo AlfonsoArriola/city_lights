@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+
   "dependencies": {},
   "devDependencies": {
     "webpack": "^4.27.1",
