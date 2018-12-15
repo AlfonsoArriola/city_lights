@@ -1,0 +1,16 @@
+body{
+	/*background: grey;*/
+	font-family: 'GFS Neohellenic', sans-serif;
+}
+
+h1, h2{
+	font-family: 'Ramabhadra', sans-serif;
+}
+
+
+
+.jumbotron{
+	background-image: url(images/ornament.jpg);
+	background-size: cover;
+	background-position: center;
+}
