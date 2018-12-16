@@ -7,12 +7,41 @@ h1, h2{
 	font-family: 'Ramabhadra', sans-serif;
 }
 
+h2{
+	margin: 2.5rem 0rem;
+}
+
+p{
+	text-indent:10%;
+}
+
+footer{
+	margin-top: 11rem;
+}
 
 
 .jumbotron{
 	background-image: url(images/ornament.jpg);
 	background-size: cover;
 	background-position: center;
+}
+
+.slide{
+	height: 20rem;
+}
+
+.carousel-item{
+	height: 18rem;
+	background: black;
+}
+
+button a{
+	color: white;
+	text-align: center;
+}
+
+.card-text{
+	font-size: .8em;
 }
 
 .clm_map{
