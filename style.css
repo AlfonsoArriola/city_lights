@@ -91,7 +91,7 @@ nav #menu li a{
 	opacity: 0;
 }
 
-#toggle.on #one{
+#toggle.on #three{
 	transform: rotate(-45deg) translateX(0.5rem) translateY(-0.625rem);
 }
 
