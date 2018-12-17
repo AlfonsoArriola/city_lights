@@ -89,6 +89,10 @@ footer a{
 	color: white;
 }
 
+footer img{
+	height: 3rem;
+}
+
 /*#brand a{
 	text-decoration: none;
 	-webkit-transition: all 0.5s;
@@ -254,8 +258,17 @@ nav #menu li a{
 	background-image: url(images/liberty.jpg);
 	background-size: cover;
 	height: 30rem;
+	margin-bottom: 6rem;
 }
 
+.celebration{
+	height: 18rem;
+	text-align: center;
+}
+
+.celebration img{
+	height: 15rem;
+}
 
 
 .slide{
@@ -265,6 +278,16 @@ nav #menu li a{
 .carousel-item{
 	height: 18rem;
 	background: black;
+}
+
+.services{
+	background: white;
+	width: 100%;
+}
+
+.services h2{
+	color: black;
+	text-shadow: none;
 }
 
 button a{
