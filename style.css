@@ -16,6 +16,18 @@ h1, h2{
 	font-family: 'Ramabhadra', sans-serif;
 }
 
+h2{
+	margin: 2.5rem 0rem;
+}
+
+p{
+	text-indent:10%;
+}
+
+footer{
+	margin-top: 11rem;
+}
+
 nav{
 	width: 100%;
 	background: #000;
@@ -129,8 +141,7 @@ nav #menu li a{
 	margin-top: 8.75rem;
 }
 
-
-#resixe #menu li a {
+#resize #menu li a {
 	color: #fff;
 }
 
@@ -145,10 +156,52 @@ nav #menu li a{
 	background-position: center;
 }
 
+.slide{
+	height: 20rem;
+}
+
+.carousel-item{
+	height: 18rem;
+	background: black;
+}
+
+button a{
+	color: white;
+	text-align: center;
+}
+
+.card-text{
+	font-size: .8em;
+}
+
 .clm_map{
 	height: 20rem;
 
 }
+
+.mapboxgl-popup {
+    max-width: 400px;
+    font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+ }
+
+.ceo_card{
+    height: 9rem;
+    width: 20rem;
+
+}
+
+.ceo_card_left{
+    background-image: url(images/ceo.jpg);
+    background-position: center;
+    background-size: cover;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+.ceo_card_right{
+	padding: 1.7rem 0rem 0rem 1.7rem;
+    border-bottom-right-radius: 35%;
+    border: 1px solid blue;
 
  .mapboxgl-popup {
         max-width: 400px;
@@ -186,9 +239,8 @@ nav #menu li a{
 	}
 
 }
-	
-}
 
+}
 
 
 
