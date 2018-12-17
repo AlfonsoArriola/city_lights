@@ -1,6 +1,15 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+
 body{
-	/*background: grey;*/
+	width: 100%;
+	height: 100vh;
 	font-family: 'GFS Neohellenic', sans-serif;
+	display: table;
 }
 
 h1, h2{
@@ -19,6 +28,127 @@ footer{
 	margin-top: 11rem;
 }
 
+nav{
+	width: 100%;
+	background: #000;
+	height: 4.375rem;
+	position: static;
+	z-index: 1;
+}
+
+nav #brand{
+	float: left;
+	display: block;
+	margin-left: 5.25rem;
+	font-size: 1.875rem;
+	line-height: 4.375rem;
+	font-weight: bold;
+}
+
+nav #brand a{
+	color: #fff;
+	transition: all 0.3s ease-out;
+	font-weight: 300;
+}
+
+nav #menu{
+	float: right;
+	position: relative;
+}
+
+
+
+nav #menu li{
+	display: inline-block;
+	padding: 0px 30px;
+	cursor: pointer;
+	line-height: 70px;
+	position: relative;
+	transition: all 0.3s ease-out;
+}
+
+nav #menu li a{
+	color: #fff;
+	font-weight: 200;
+}
+
+#toggle{
+	position: absolute;
+	right:  1.25rem;
+	top: 0.875rem;
+	z-index: 999;
+	width: 2.5rem;
+	height: 2.5rem;
+	cursor: pointer;
+	float: right;
+	transition: all 0.3s ease-out;
+	visibility: hidden;
+	opacity: 0;
+}
+
+#toggle .span{
+	height: 0.1875rem;
+	background: #fff;
+	transition: all 0.3s ease-out;
+	backface-visibility: hidden;
+	margin: 0.3125rem auto;
+}
+
+
+#toggle.on #one{
+	transform: rotate(45deg) translateX(0.125rem) translateY(0.25rem);
+}
+
+#toggle.on #two{
+	opacity: 0;
+}
+
+#toggle.on #three{
+	transform: rotate(-45deg) translateX(0.5rem) translateY(-0.625rem);
+}
+
+#resize{
+	z-index: 1;
+	top: 0rem;
+	position: absolute;
+	background: #000;
+	width: 100%;
+	height: 100%;
+	visibility: hidden;
+	opacity: 0;
+	transition: all .5s ease-out;
+	display: table;
+}
+
+#resize #menu {
+	height: 3.125rem;
+	display: table-cell;
+	vertical-align: center;
+}
+
+#resize #menu li {
+	display: block;
+	text-align: center;
+	padding: 1.25rem 0;
+	font-size: 3.125rem;
+	min-height: 3.125rem;
+	font-weight: 200;
+	cursor: pointer;
+	transition: all 0.3s ease-out;
+}
+
+#resize li:nth-child(1){
+	margin-top: 8.75rem;
+}
+
+#resize #menu li a {
+	color: #fff;
+}
+
+#resize.active {
+	visibility: visible;
+	opacity: 0.99;
+}
 
 .jumbotron{
 	background-image: url(images/ornament.jpg);
@@ -72,6 +202,44 @@ button a{
 	padding: 1.7rem 0rem 0rem 1.7rem;
     border-bottom-right-radius: 35%;
     border: 1px solid blue;
+
+ .mapboxgl-popup {
+        max-width: 400px;
+        font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+ }
+
+
+
+@media(max-width: 940px) {
+	#toggle{
+		visibility: visible;
+		opacity: 1;
+		margin-top: 0.375rem;
+	}
+
+	nav #brand {
+		margin-left: 1.125rem;
+		font-size: 1.5rem;
+	}
+
+	#menu a {
+		font-weight: 200;
+		font-size: 1.25rem;
+	}
+
+	nav #menu{
+		display: none;
+	}
+	
+}
+
+@media (min-width: 940px) {
+	#resize{
+		visibility: hidden !important;
+	}
+
+}
+
 }
 
 

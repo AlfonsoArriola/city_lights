@@ -1,5 +1,13 @@
 
 
+// --------- Nav  _________________________
+$("#toggle").click(function(){
+   $(this).toggleClass("on");
+   $("#resize").toggleClass("active");
+});
+
+
+// --------  Map  _________________
 let mapboxgl = require('mapbox-gl/dist/mapbox-gl.js');
 
 // let geojson = {
