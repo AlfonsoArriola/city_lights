@@ -16,6 +16,55 @@ h1, h2{
 	font-family: 'Ramabhadra', sans-serif;
 }
 
+h1, .title {
+	color: white;
+	text-shadow:	 1px  1px 1px #f27825,
+					 2px  2px 1px #f27825,
+					 3px  3px 1px #f27825,
+					 4px  4px 1px #f27825,
+					 5px  5px 1px #f27825,
+					 6px  6px 1px #f27825,
+					 7px  7px 1px #f27825,
+					 8px  8px 1px #f27825,
+					 9px  9px 1px #f27825,
+					10px 10px 1px #f27825,
+					11px 11px 1px #f27825,
+					12px 12px 1px #f27825,
+					13px 13px 1px #f27825,
+					14px 14px 1px #f27825,
+					15px 15px 1px #f27825,
+					16px 16px 1px #f27825,
+					17px 17px 1px #f27825,
+					18px 18px 1px #f27825,
+					19px 19px 1px #f27825,
+					20px 20px 1px #f27825,
+					21px 21px 1px #f27825,
+					22px 22px 1px #f27825,
+					23px 23px 1px #f27825,
+					24px 24px 1px #f27825,
+					25px 25px 1px #f27825,
+					26px 26px 1px #f27825,
+					27px 27px 1px #f27825,
+					28px 28px 1px #f27825,
+					29px 29px 1px #f27825,
+					30px 30px 1px #f27825;
+  
+  -webkit-transform: skewY(-20deg);
+  -moz-transform: skewY(-20deg);
+	transform: skewY(-20deg);
+  -webkit-backface-visibility: hidden;
+  text-align: center;
+}
+
+.lead{
+  -webkit-transform: skewY(-20deg);
+  -moz-transform: skewY(-20deg);
+	transform: skewY(-20deg); 
+  -webkit-backface-visibility: hidden;
+  text-align: center;
+  font-size: 2em;
+}
+
 h2{
 	margin: 2.5rem 0rem;
 }
@@ -27,6 +76,43 @@ p{
 footer{
 	margin-top: 11rem;
 }
+
+/*#brand a{
+	text-decoration: none;
+	-webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}*/
+
+#brand a{
+	text-decoration: none;
+	-webkit-animation: neon 2s ease-in-out infinite alternate;
+    -moz-animation: neon 2s ease-in-out infinite alternate;
+    animation: neon 2s ease-in-out infinite alternate;
+}
+
+/*#menu a{
+	-webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+#menu a:hover{
+	text-decoration: none;
+	-webkit-animation: neon 1.5s ease-in-out infinite alternate;
+    -moz-animation: neon 1.5s ease-in-out infinite alternate;
+    animation: neon 1.5s ease-in-out infinite alternate;
+}
+*/
+@-webkit-keyframes neon{
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228DFF, 0 0 70px #228DFF, 0 0 80px #228DFF, 0 0 100px #228DFF, 0 0 150px #228DFF;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228DFF, 0 0 35px #228DFF, 0 0 40px #228DFF, 0 0 50px #228DFF, 0 0 75px #228DFF;
+  }
+}
+
 
 nav{
 	width: 100%;
@@ -86,7 +172,7 @@ nav #menu li a{
 	opacity: 0;
 }
 
-#toggle .span{
+#toggle  .span{
 	height: 0.1875rem;
 	background: #fff;
 	transition: all 0.3s ease-out;
@@ -151,9 +237,10 @@ nav #menu li a{
 }
 
 .jumbotron{
-	background-image: url(images/ornament.jpg);
+	background-color: #40e0d0;
+	background-image: url(images/liberty.jpg);
 	background-size: cover;
-	background-position: center;
+	height: 30rem;
 }
 
 .slide{
@@ -187,7 +274,6 @@ button a{
 .ceo_card{
     height: 9rem;
     width: 20rem;
-
 }
 
 .ceo_card_left{
@@ -202,12 +288,12 @@ button a{
 	padding: 1.7rem 0rem 0rem 1.7rem;
     border-bottom-right-radius: 35%;
     border: 1px solid blue;
-
- .mapboxgl-popup {
+}
+/* .mapboxgl-popup {
         max-width: 400px;
         font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
  }
-
+*/
 
 
 @media(max-width: 940px) {
@@ -240,7 +326,7 @@ button a{
 
 }
 
-}
+
 
 
 
