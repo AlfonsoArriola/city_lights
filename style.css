@@ -49,7 +49,33 @@ button a{
 
 }
 
- .mapboxgl-popup {
-        max-width: 400px;
-        font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+.mapboxgl-popup {
+    max-width: 400px;
+    font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
  }
+
+.ceo_card{
+    height: 9rem;
+    width: 20rem;
+
+}
+
+.ceo_card_left{
+    background-image: url(images/ceo.jpg);
+    background-position: center;
+    background-size: cover;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+.ceo_card_right{
+	padding: 1.7rem 0rem 0rem 1.7rem;
+    border-bottom-right-radius: 35%;
+    border: 1px solid blue;
+}
+
+
+
+
+
+

@@ -1,5 +1,4 @@
 
-console.log(spitten');
 
 let mapboxgl = require('mapbox-gl/dist/mapbox-gl.js');
 
