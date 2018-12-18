@@ -391,7 +391,7 @@ button a{
 }
 
 @media (max-width: 400px) {
-
+    
 
 	h1, .title {
 	float: left;
@@ -411,6 +411,50 @@ button a{
   
 	
     }
+
+    #resize #menu li {
+		display: block;
+		text-align: center;
+		padding: .1rem 0;
+		font-size: 5rem;
+		min-height: 5rem;
+		cursor: pointer;
+	    transition: all 0.1s ease-out;
+	    color: black;
+	    text-shadow: 1px  1px 1px #f27825,
+			     2px  2px 1px #f27825,
+				 3px  3px 1px #f27825;
+	}
+
+	#resize{
+		
+		transition: none;
+		display: table;
+	}
+
+	#resize li:nth-child(1){
+		margin-top: 4.75rem;
+	}
+
+	#resize #menu li a {
+		color: #fff;
+		font-size: .35em;
+	}
+
+
+	#menu a:hover{
+		text-decoration: none;
+		-webkit-animation: none;
+	    -moz-animation: none;
+	    animation: none;
+	    text-shadow: 1px  1px 1px #f27825,
+					 2px  2px 1px #f27825,
+					 3px  3px 1px #f27825,
+					 4px  4px 1px #f27825,
+					 5px  5px 1px #f27825,
+					 6px  6px 1px #f27825;
+	}
+
 
     .lead{
       color: white;
