@@ -85,8 +85,17 @@ footer{
 	width: 100%;
 }
 
+footer li{
+	margin: .5rem;
+}
+
 footer a{
 	color: white;
+
+}
+
+footer img{
+	height: 3rem;
 }
 
 /*#brand a{
@@ -254,17 +263,51 @@ nav #menu li a{
 	background-image: url(images/liberty.jpg);
 	background-size: cover;
 	height: 30rem;
+	margin-bottom: 6rem;
+}
+
+.celebration{
+	height: 18rem;
+	text-align: center;
+}
+
+.celebration img{
+	height: 15rem;
+}
+
+iframe{
+	background: white;
+	padding: 1rem;
 }
 
 
 
 .slide{
 	height: 20rem;
+	width: 25rem;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .carousel-item{
 	height: 18rem;
 	background: black;
+}
+
+.thanks{
+	font-size: 4em;
+}
+
+.services{
+    margin-top: 8rem;
+	background: white;
+	width: 100%;
+}
+
+.services h2{
+	color: black;
+	text-shadow: none;
 }
 
 button a{
@@ -310,6 +353,14 @@ button a{
  }
 */
 
+@media (max-width: 1000px) {
+
+	.celebration {
+		display: none;
+
+	}
+
+}
 
 @media(max-width: 940px) {
 	#toggle{
