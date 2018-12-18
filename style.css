@@ -85,8 +85,13 @@ footer{
 	width: 100%;
 }
 
+footer li{
+	margin: .5rem;
+}
+
 footer a{
 	color: white;
+
 }
 
 footer img{
@@ -270,9 +275,19 @@ nav #menu li a{
 	height: 15rem;
 }
 
+iframe{
+	background: white;
+	padding: 1rem;
+}
+
+
 
 .slide{
 	height: 20rem;
+	width: 25rem;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .carousel-item{
@@ -280,7 +295,12 @@ nav #menu li a{
 	background: black;
 }
 
+.thanks{
+	font-size: 4em;
+}
+
 .services{
+    margin-top: 8rem;
 	background: white;
 	width: 100%;
 }
@@ -333,6 +353,14 @@ button a{
  }
 */
 
+@media (max-width: 1000px) {
+
+	.celebration {
+		display: none;
+
+	}
+
+}
 
 @media(max-width: 940px) {
 	#toggle{
