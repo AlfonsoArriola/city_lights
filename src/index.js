@@ -1,5 +1,3 @@
-
-
 // --------- Nav  _________________________
 $("#toggle").click(function(){
    $(this).toggleClass("on");

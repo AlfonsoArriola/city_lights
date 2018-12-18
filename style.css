@@ -216,15 +216,15 @@ nav #menu li a{
 }
 
 #resize{
-	z-index: 1;
+	z-index: 4;
 	top: 0rem;
 	position: absolute;
 	background: #48d1cc;
 	width: 100%;
-	height: 100%;
+	height: 100vh;
 	visibility: hidden;
 	opacity: 0;
-	transition: all .5s ease-out;
+	transition: all .28s ease-out;
 	display: table;
 }
 
@@ -242,7 +242,7 @@ nav #menu li a{
 	min-height: 3.125rem;
 	font-weight: 200;
 	cursor: pointer;
-	transition: all 0.3s ease-out;
+	transition: all 0.1s ease-out;
 }
 
 #resize li:nth-child(1){
@@ -279,8 +279,6 @@ iframe{
 	background: white;
 	padding: 1rem;
 }
-
-
 
 .slide{
 	height: 20rem;
@@ -388,6 +386,72 @@ button a{
 @media (min-width: 940px) {
 	#resize{
 		visibility: hidden !important;
+	}
+
+}
+
+@media (max-width: 400px) {
+
+
+	h1, .title {
+	float: left;
+	font-size: 1em;
+	color: white;
+	text-shadow:	 1px  1px 1px #f27825,
+					 2px  2px 1px #f27825,
+					 3px  3px 1px #f27825,
+					 4px  4px 1px #f27825,
+					 5px  5px 1px #f27825,
+					 6px  6px 1px #f27825,
+					 7px  7px 1px #f27825,
+					 8px  8px 1px #f27825,
+					 9px  9px 1px #f27825,
+					10px 10px 1px #f27825,
+					11px 11px 1px #f27825;
+  
+	
+    }
+
+    .lead{
+      color: white;
+      display: none;
+
+    }
+
+    .jumbotron{
+	  background-color: #40e0d0;
+	  background-image: url(images/liberty.jpg);
+	  background-size: cover;
+	  height: 20rem;
+	  margin-bottom: 3rem;
+	}
+
+    .title{
+      font-size: 3em;
+      float: right;
+    }
+
+    .lead{
+	  float: left;
+	  text-align: center;
+	  font-size: 1.5em;
+    }
+
+    .thanks{
+	  font-size: 1.7em;
+	}
+
+
+	.slide{
+		height: 13rem;
+		width: 17rem;
+		display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+
+	iframe{
+		width: 17rem;
 	}
 
 }
