@@ -58,45 +58,58 @@
     <div class="container">
       <div class="row">
         <div class="col">
-          <h2> Contact Us</h2>
-            <div class="row">
-              
+            <div class="row">              
               <div class="col-md-6">
                 <div class="row">
-                  <div class="col">
-                    <img src="images/clm_night.png" alt="">
-                  </div>
-                </div> 
-                <div class="row">
-                  <div class="col">
-                    <p>
-                     +1.6465311656 <br>
+                  <div class="col text-center">
+                    <h2> Call Us</h2>
+                         <br>
+                    (646) 531-1656<br>
+                      <h2> Hours Of Operation</h2>
                       Mon-Fri 7 a.m.-5 p.m. EST, <br>
                       Sat 7 a.m.-11:30 p.m. EST,  <br>
-                      Sun 9 a.m.-10 p.m. EST <br>
-                    </p>
+                      Sun 9 a.m.-10 p.m. EST <br>         
                   </div>
                 </div>        
                </div>
-               <div class="col-md-6 clm_map" id="base">
-                 
-               </div>    
-
-
-                    
-                
-              </div>
-              
-            </div>
-
-     
-       
-
+               <div class="col-md-6">
+                  <div class="row text-center">
+                    <h2> Our base</h2>
+                  </div>
+                  <div class="row clm_map" id="base">
+                  </div>
+               </div>                  
+              </div>              
         </div>
-      
       </div>
+      <div class="row">
+        <div class="col">
+          <h2> Get A Free Quote!</h2>
+           <form name="contact" method="POST" data-netlify="true">
+              <p>
+                <label>Your Name: <input type="text" name="name" /></label>   
+              </p>
+              <p>
+                <label>Your Email: <input type="email" name="email" /></label>
+              </p>
+              <p>
+                <label>Subject: <select name="role[]" multiple>
+                  <option value="qoute">My Free Qoute</option> 
+                  <option value="other">Other</option>
+                </select></label>
+              </p>
+              <p>
+                <label>Message: <textarea name="message"></textarea></label>
+              </p>
+              <p>
+                <button class="btn btn-primary" type="submit">Send</button>
+              </p>
+            </form>    
+        </div>       
+      </div>
+      
+    </div>
 
-     </div>
 
 
      
