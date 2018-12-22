@@ -170,10 +170,15 @@ nav #menu{
 nav #menu li{
 	display: inline-block;
 	padding: 0px 30px;
+
 	cursor: pointer;
 	line-height: 70px;
 	position: relative;
 	transition: all 0.3s ease-out;
+}
+
+nav #menu li:hover{
+	background:#f27825;
 }
 
 nav #menu li a{
@@ -281,8 +286,8 @@ nav #menu li a{
 	display: block;
 	text-align: center;
 	padding: 1.25rem 0;
-	/*font-size: 3.125rem;*/
-	/*min-height: 3.125rem;*/
+	font-size: 3.125rem;
+	min-height: 3.125rem;
 	font-weight: 200;
 	cursor: pointer;
 	transition: all 0.1s ease-out;
@@ -292,8 +297,13 @@ nav #menu li a{
 	margin-top: 8.75rem;
 }
 
+#resize #menu li:hover {
+		background: black;
+	}
+
 #resize #menu li a {
 	color: #00ced1;
+	font-weight: 800;
 }
 
 #resize.active {
@@ -368,6 +378,23 @@ iframe{
 	font-size: 4em;
 }
 
+/*.celebrate15::before{
+    content:url(images/balloons.svg); 
+    height: 2rem; 
+    width: 2rem; 
+    position: absolute;
+    left:-50px;
+    top:10px;
+}*/
+
+/*.celebrate15::after{
+    content: 'bye';
+    background: red;
+    font-size: 20px;
+    color: white;
+    font-weight: 900;
+}*/
+
 .services{
     margin-top: 8rem;
 	background: white;
@@ -386,6 +413,14 @@ button a{
 
 .card-text{
 	font-size: .8em;
+}
+
+.off_card{
+    box-shadow:12px 12px grey; 
+}
+
+.fac_card{
+    box-shadow:-12px 12px grey; 
 }
 
 .clm_map{
@@ -540,7 +575,6 @@ textarea{
 		color: #fff;
 		font-size: .35em;
 	}
-
 
 	#menu a:hover{
 		text-decoration: none;
